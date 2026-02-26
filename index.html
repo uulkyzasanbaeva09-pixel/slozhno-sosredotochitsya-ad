@@ -1,40 +1,174 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
-  </head>
-  <body class="page">
-    <header class="header decorated-zone">
-      <nav class="header__theme-menu">
-        <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
-            >
-              День
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              disabled
-            >
-              Авто
-            </button>
-          </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
-            >
-              Неон
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Сложно сосредоточиться</title>
+  <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/dark.css" />
+  <link rel="stylesheet" href="./styles/light.css" />
+  <script src="./scripts/script.js"></script>
+</head>
+<body class="page">
+  <header class="header decorated-zone" id="header">
+    <div class="header__rec" aria-hidden="true">REC</div>
+    <nav class="header__theme-menu">
+      <ul class="header__theme-menu-list">
+        <li class="header__theme-menu-item">
+          <button
+            class="header__theme-menu-button header__theme-menu-button_type_light"
+          >
+            День
+          </button>
+        </li>
+        <li class="header__theme-menu-item">
+          <button
+            class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
+            disabled
+          >
+            Авто
+          </button>
+        </li>
+        <li class="header__theme-menu-item">
+          <button
+            class="header__theme-menu-button header__theme-menu-button_type_dark"
+          >
+            Неон
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="header__title">
+      no focus
+    </h1>
+    <p class="header__subtitle title-decor">
+      Что делать, когда не можешь делать ничего<br />Или почему вам так сложно сосредоточиться, особенно когда очень надо
+    </p>
+  </header>
+
+  <main class="main">
+    <section class="section section__why">
+      <h2 class="section__title title-decor">Почему сосредоточиться так сложно</h2>
+      <div class="section__content">
+        <article class="article">
+          <h3 class="article__title title-decor">Многозадачность</h3>
+          <p class="article__text">
+            Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна?
+          </p>
+        </article>
+        <article class="article">
+          <h3 class="article__title title-decor">Дофамин</h3>
+          <p class="article__text">
+            С гаджетами новая проблема — в любой момент dopamine hit и мозг разбежится. Поэтому часто мы не можем сосредоточиться даже на важном и интересном. Очень современная проблема: ищите меня в 2222 году и Рion reaction (строки из рекомендаций).
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section__what">
+      <h2 class="section__title title-decor">Что снижает концентрацию внимания?</h2>
+      <div class="section__content">
+        <article class="article">
+          <h3 class="article__title title-decor">Многозадачность</h3>
+          <p class="article__text">
+            Концентрация падает из-за､что человек постоянно переключается между заданиями. Мозгу времени на восстановление..
+          </p>
+        </article>
+        <article class="article">
+          <h3 class="article__title title-decor">گаджеты</h3>
+          <p class="article__text">
+            Гаджеты предоставляют много barthroom for our dopamine hit sites and this is dangerous for the brain activity especially for it's memory ability..
+          </p>
+        </article>
+        <article class="article">
+          <h3 class="article__title title-decor">Без одежды</h3>
+          <p class="article__text">
+            Исследования показывают, что река мозга часто не может сосредоточиться в комфортной обстановке. А дома, как правило, комфортно...
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section__how">
+      <h2 class="section__title title-decor">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
+      <div class="section__content">
+        <article class="article">
+          <h3 class="article__title title-decor">5 простых (на самом деле не очень) советов</h3>
+          <ul class="tips-list">
+            <li class="tips-list__item">
+              <p class="article__text">Представьте небо и облака (если над головой тоже так)</p>
+            </li>
+            <li class="tips-list__item">
+              <p class="article__text">Бесплатно меняйте простые habitual ассоциации сложными (например, обычный стол может стать метафорой вашего мозга)</p>
+            </li>
+            <li class="tips-list__item">
+              <p class="article__text">Включите белый шум, прокликайте ноadorable или включите эмбиент, как предпочитаете звуковую среду</p>
+            </li>
+            <li class="tips-list__item">
+              <p class="article__text">Используйте техник Помодоро и техники тайм-бокса</p>
+            </li>
+            <li class="tips-list__item">
+              <p class="article__text">Вот (внутренняя ссылка) или сначала прочитайте (внешняя ссылка)</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section__gallery">
+      <h2 class="section__title title-decor">А можно в картинках?</h2>
+      <ul class="gallery">
+        <li class="gallery__item">
+          <img 
+            class="gallery__image"
+            src="./images/sunset.png"
+            alt="Закат над морем"
+            loading="lazy"
+          />
+        </li>
+        <li class="gallery__item">
+          <img 
+            class="gallery__image"
+            src="./images/ice-cream.png"
+            alt="Мороженое на пляже"
+            loading="lazy"
+          />
+        </li>
+        <li class="gallery__item">
+          <img 
+            class="gallery__image"
+            src="./images/tape.png"
+            alt="Кассета"
+            loading="lazy"
+          />
+        </li>
+        <li class="gallery__item">
+          <img 
+            class="gallery__image"
+            src="./images/books.png"
+            alt="Стопка книг"
+            loading="lazy"
+          />
+        </li>
+        <li class="gallery__item">
+          <img 
+            class="gallery__image"
+            src="./images/street.png"
+            alt="Улица"
+            loading="lazy"
+          />
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer decorated-zone">
+    <h2 class="footer__title">focus</h2>
+  </footer>
+</body>
 </html>
